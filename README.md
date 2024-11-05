@@ -27,7 +27,7 @@ NessaHours is a user-friendly work hours tracking app designed to help individua
 - Add Work Entry Screen
 - Total Hours Calculation Screen
 
-![Home Screen](app_images/Intro.png)
+![Home Screen](app_images/1.png)
 ![Add Work Entry Screen](app_images/2.png)
 ![Calculate Hours Screen](app_images/3.png)
 ![Table View Screen](app_images/4.png)
