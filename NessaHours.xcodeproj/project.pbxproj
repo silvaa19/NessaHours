@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C692BCB32CC6D8C500760EAD /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C692BCB22CC6D8C000760EAD /* PickerViewController.swift */; };
+		C692BCB42CC70F2800760EAD /* CalculateHoursViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D1D02CC2BBEE0035D7A7 /* CalculateHoursViewController.swift */; };
+		C6B08E532CC2EADB00A7D601 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B08E522CC2EADB00A7D601 /* CoreData.framework */; };
+		C6E7D1CF2CC2B9B20035D7A7 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D1CE2CC2B9B20035D7A7 /* PageViewController.swift */; };
+		C6E7D1D32CC2BBFE0035D7A7 /* EntriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D1D22CC2BBFE0035D7A7 /* EntriesListViewController.swift */; };
+		C6E7D1D52CC2CA810035D7A7 /* WorkEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D1D42CC2CA810035D7A7 /* WorkEntryTableViewCell.swift */; };
+		C6F204052CC17E7100E13128 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F204042CC17E7100E13128 /* Persistence.swift */; };
+		C6F2040C2CC17E7200E13128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F2040B2CC17E7200E13128 /* Assets.xcassets */; };
+		C6F204192CC17F3000E13128 /* AddWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F204182CC17F3000E13128 /* AddWorkViewController.swift */; };
+		C6F2041B2CC1806B00E13128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F2041A2CC1806B00E13128 /* Main.storyboard */; };
+		C6F2041D2CC184ED00E13128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2041C2CC184ED00E13128 /* AppDelegate.swift */; };
+		C6F2041E2CC1858B00E13128 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F204162CC17EDA00E13128 /* IntroViewController.swift */; };
+		C6F204202CC18FED00E13128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2041F2CC18FED00E13128 /* SceneDelegate.swift */; };
+		DAE670F02CC34A7D00F35C4A /* NessaHoursModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAE670EE2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C692BCAF2CC6BF2F00760EAD /* NessaHours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NessaHours.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C692BCB22CC6D8C000760EAD /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		C6B08E522CC2EADB00A7D601 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		C6E7D1CE2CC2B9B20035D7A7 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C6E7D1D02CC2BBEE0035D7A7 /* CalculateHoursViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateHoursViewController.swift; sourceTree = "<group>"; };
+		C6E7D1D22CC2BBFE0035D7A7 /* EntriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesListViewController.swift; sourceTree = "<group>"; };
+		C6E7D1D42CC2CA810035D7A7 /* WorkEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkEntryTableViewCell.swift; sourceTree = "<group>"; };
+		C6F204042CC17E7100E13128 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C6F2040B2CC17E7200E13128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F204162CC17EDA00E13128 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		C6F204182CC17F3000E13128 /* AddWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkViewController.swift; sourceTree = "<group>"; };
+		C6F2041A2CC1806B00E13128 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C6F2041C2CC184ED00E13128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6F2041F2CC18FED00E13128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAE670EF2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NessaHoursModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6F203FC2CC17E7100E13128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B08E532CC2EADB00A7D601 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6B08E512CC2EADB00A7D601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B08E522CC2EADB00A7D601 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6F203F62CC17E7100E13128 = {
+			isa = PBXGroup;
+			children = (
+				C6F204012CC17E7100E13128 /* NessaHours */,
+				C6B08E512CC2EADB00A7D601 /* Frameworks */,
+				C692BCAF2CC6BF2F00760EAD /* NessaHours.app */,
+			);
+			sourceTree = "<group>";
+		};
+		C6F204012CC17E7100E13128 /* NessaHours */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2041A2CC1806B00E13128 /* Main.storyboard */,
+				C6E7D1CE2CC2B9B20035D7A7 /* PageViewController.swift */,
+				C6F204162CC17EDA00E13128 /* IntroViewController.swift */,
+				C6F204182CC17F3000E13128 /* AddWorkViewController.swift */,
+				C6E7D1D02CC2BBEE0035D7A7 /* CalculateHoursViewController.swift */,
+				C6E7D1D22CC2BBFE0035D7A7 /* EntriesListViewController.swift */,
+				C6E7D1D42CC2CA810035D7A7 /* WorkEntryTableViewCell.swift */,
+				C692BCB22CC6D8C000760EAD /* PickerViewController.swift */,
+				C6F204042CC17E7100E13128 /* Persistence.swift */,
+				C6F2041C2CC184ED00E13128 /* AppDelegate.swift */,
+				C6F2041F2CC18FED00E13128 /* SceneDelegate.swift */,
+				C6F2040B2CC17E7200E13128 /* Assets.xcassets */,
+				DAE670EE2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodeld */,
+			);
+			path = NessaHours;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6F203FE2CC17E7100E13128 /* NessaHours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6F204132CC17E7200E13128 /* Build configuration list for PBXNativeTarget "NessaHours" */;
+			buildPhases = (
+				C6F203FB2CC17E7100E13128 /* Sources */,
+				C6F203FC2CC17E7100E13128 /* Frameworks */,
+				C6F203FD2CC17E7100E13128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NessaHours;
+			productName = NessaHours;
+			productReference = C692BCAF2CC6BF2F00760EAD /* NessaHours.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6F203F72CC17E7100E13128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C6F203FE2CC17E7100E13128 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C6F203FA2CC17E7100E13128 /* Build configuration list for PBXProject "NessaHours" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6F203F62CC17E7100E13128;
+			productRefGroup = C6F203F62CC17E7100E13128;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6F203FE2CC17E7100E13128 /* NessaHours */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6F203FD2CC17E7100E13128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F2040C2CC17E7200E13128 /* Assets.xcassets in Resources */,
+				C6F2041B2CC1806B00E13128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F203FB2CC17E7100E13128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C692BCB32CC6D8C500760EAD /* PickerViewController.swift in Sources */,
+				DAE670F02CC34A7D00F35C4A /* NessaHoursModel.xcdatamodeld in Sources */,
+				C6F2041E2CC1858B00E13128 /* IntroViewController.swift in Sources */,
+				C6E7D1D32CC2BBFE0035D7A7 /* EntriesListViewController.swift in Sources */,
+				C6E7D1CF2CC2B9B20035D7A7 /* PageViewController.swift in Sources */,
+				C6F204202CC18FED00E13128 /* SceneDelegate.swift in Sources */,
+				C692BCB42CC70F2800760EAD /* CalculateHoursViewController.swift in Sources */,
+				C6E7D1D52CC2CA810035D7A7 /* WorkEntryTableViewCell.swift in Sources */,
+				C6F2041D2CC184ED00E13128 /* AppDelegate.swift in Sources */,
+				C6F204052CC17E7100E13128 /* Persistence.swift in Sources */,
+				C6F204192CC17F3000E13128 /* AddWorkViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6F204112CC17E7200E13128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6F204122CC17E7200E13128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C6F204142CC17E7200E13128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NessaHours/Preview Content\"";
+				DEVELOPMENT_TEAM = 88Y252D4QY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = iona.NessaHours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6F204152CC17E7200E13128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NessaHours/Preview Content\"";
+				DEVELOPMENT_TEAM = 88Y252D4QY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = Main;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = iona.NessaHours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6F203FA2CC17E7100E13128 /* Build configuration list for PBXProject "NessaHours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F204112CC17E7200E13128 /* Debug */,
+				C6F204122CC17E7200E13128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6F204132CC17E7200E13128 /* Build configuration list for PBXNativeTarget "NessaHours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F204142CC17E7200E13128 /* Debug */,
+				C6F204152CC17E7200E13128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAE670EE2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAE670EF2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodel */,
+			);
+			currentVersion = DAE670EF2CC34A7D00F35C4A /* NessaHoursModel.xcdatamodel */;
+			path = NessaHoursModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6F203F72CC17E7100E13128 /* Project object */;
+}
